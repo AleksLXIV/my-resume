@@ -1,0 +1,57 @@
+@media (max-width: 320px) {
+	.conteiner {
+		width: 100%;
+	}
+
+	header {
+		height: 520px;
+
+		.header__img {
+			.header__img-prof {
+				display: block;
+
+				.prof-name {
+					font-size: 40px;
+				}
+
+				.prof-prof {
+					font-size: 50px
+				}
+			}
+		}
+	}
+
+	.left-col {
+		.education {
+			.education__university {
+				font-size: 18px;
+			}
+		}
+
+	}
+
+	.right-col {
+		.experiences__work {
+			.name__work {
+				font-size  : 17px;
+				padding-top: 15px;
+			}
+
+			.profession {
+				font-size: 17px;
+			}
+
+			.duties {
+				font-size: 16px;
+			}
+		}
+
+		.profile {
+			p {
+				font-size: 15px;
+			}
+
+			margin-bottom: 25px;
+		}
+	}
+}

@@ -1,0 +1,126 @@
+@media (max-width: 662px) {
+	header {
+		.header__img {
+			.header__img-conteiner {
+				width: 100%;
+			}
+		}
+
+		.header__info {
+			.header__info-name {
+				.info-name {
+					font-size: 35px;
+				}
+
+				.info-surname {
+					font-size: 45px;
+				}
+			}
+
+			.header__info-address {
+				padding-top: 30px;
+
+				ul {
+					.phone {
+						margin: 0;
+					}
+
+					.info {
+						margin-bottom: 20px;
+					}
+				}
+			}
+		}
+	}
+
+	.title {
+		text-align: center;
+	}
+
+	main {
+		flex-direction  : column-reverse;
+		background-color: rgba(223, 221, 221, 0.233);
+	}
+
+	.left-col {
+		width  : 100%;
+		padding: 30px 10px 0 0px;
+
+		.conteiner {
+			width: 100%;
+		}
+
+		.profile {
+			display: none;
+		}
+
+		.education {
+			padding-bottom: 15px;
+
+			& hr {
+				margin: 0 auto;
+			}
+
+			.education__university {
+				margin-bottom: 0px;
+				padding      : 20px 0 0 18px;
+			}
+		}
+
+		.hobbies {
+			display: none;
+		}
+	}
+
+	.right-col {
+		display       : flex;
+		flex-direction: column-reverse;
+		width         : 100%;
+		padding-top   : 15px;
+
+		.experiences {
+			padding: 0 10px 0 10px;
+
+			hr {
+				margin: 0 auto;
+			}
+		}
+
+		.experiences__work {
+			width        : 100%;
+			padding      : 20px 10px 0 10px;
+			margin-bottom: 0px;
+
+			& :first-child {
+				padding-top: 10px;
+			}
+		}
+
+		.profile {
+			display: block;
+
+			hr {
+				margin: 0 auto;
+			}
+
+			.profile__info {
+				padding: 20px 18px 0 18px;
+			}
+		}
+
+		.skill {
+			padding-top: 0px;
+
+			& hr {
+				margin: 0 auto;
+			}
+
+			.skill__img {
+				padding        : 15px 0 0 15px;
+				justify-content: center;
+			}
+		}
+	}
+
+
+}

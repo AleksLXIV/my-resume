@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin : 0;
+	border : 0;
+}
+
+/* ! Меняет подсчет ширыны блока для удобства верстки*/
+*,
+*::before,
+*::after {
+	-moz-box-sizing   : border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing        : border-box;
+}
+
+/*! Убираем линии обводки у некоторых браузерах*/
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+/*! Делаем некоторые элементы блочными*/
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+/*! Задаем одинаковое поведение шрифта разным браузерам*/
+html,
+body {
+	height                  : 100%;
+	width                   : 100%;
+	font-size               : 100%;
+	line-height             : 1;
+	font-size               : 14px;
+	-ms-text-size-adjust    : 100%;
+	-moz-text-size-adjust   : 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*! Задаем унаследование семейства шрифта Form*/
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+/*! Чистятся стили, маркированные списки*/
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border : 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+/*! Обнуляем все заголовки*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size  : inherit;
+	font-weight: 400;
+}

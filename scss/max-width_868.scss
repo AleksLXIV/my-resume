@@ -1,0 +1,52 @@
+@media (max-width: 868px) {
+	header {
+		.header__info {
+			padding: 50px 0 0 40px;
+
+			.header__info-prof {
+				margin-bottom: 40px;
+			}
+
+			.header__info-address {
+				ul {
+					flex-direction: column;
+				}
+
+				.info {
+					margin-bottom: 15px;
+					font-size    : 22px;
+				}
+			}
+		}
+	}
+
+	.left-col {
+		.hobbies {
+			& img {
+				margin-right: 17px;
+			}
+		}
+	}
+
+	.right-col {
+		.experiences {
+			.experiences__work {
+				padding: 0 18px 0 18px;
+
+				.profession {
+					font-size: 17px;
+				}
+
+				.duties {
+					font-size: 17px;
+				}
+			}
+		}
+
+		.skill {
+			.skill__img {
+				padding: 0 18px 0 18px;
+			}
+		}
+	}
+}
